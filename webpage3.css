@@ -1,0 +1,292 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%) ,url(https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 99%;
+}
+
+h1,h2{
+    color: white;
+    text-align: center;
+    margin: 46px;
+}
+.tv{
+    color: white;
+    margin: 291px 658px 265px 135px;
+}
+.tvtv{
+    position: absolute;
+    right: 13%;
+    top: 122%;
+    width: 30%;
+}
+.download{
+    position: absolute;
+    right: 13%;
+    top: 190%;
+    width: 30%;
+}
+.Stream{
+    position: absolute;
+    right: 13%;
+    width: 30%;
+    top: 270%;
+}
+.kids{
+    position: absolute;
+    right: 13%;
+    top: 335%;
+    width: 30%;
+}
+.netflix{
+    font-size: xxx-large;
+    color: red;
+    position: absolute;
+    left: 150px;
+    font-family: fantasy;
+}
+.signbutton{
+   text-align: right;
+}
+button{
+    font-size: large;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    margin: 0px 182px;
+}
+.signin:hover{
+    background-color: tomato;
+}
+
+.unlimited{
+text-align: center;
+font-size: x-large;
+margin: 250px 0px 0px 0px;
+color: white;
+}
+.email{
+    text-align:center;
+    color: white;
+
+}
+.mail{
+    height: 43px;
+    width: 358px;
+    text-align: center;
+ filter: opacity(54%);
+ border: 3px solid white;
+ color: white;
+ background-color: black;
+ font-size: large;
+}
+.get:hover{
+    background-color: tomato;
+}
+.get{
+    padding: 12px 47px;
+    margin: 0px 8px;
+}
+.offline{
+    margin: 291px 658px 265px 135px;
+}
+.watch{
+    margin: 291px 658px 265px 135px;
+}
+.create{
+    margin: 291px 658px 265px 135px;
+}
+.n1{
+    padding: 21px 378px 21px 478px;
+    margin: 20px 150px;
+    background-color: #2d2d2d;
+    font-size: x-large;
+}
+.n1{
+    padding: 21px 371px 21px 439px;
+    margin: 0px 147px;
+    background-color: #2d2d2d;
+    font-size: x-large;
+}
+.n2{
+    padding: 21px 313px 21px 353px;
+    margin: 10px 149px;
+    background-color: #2d2d2d;
+    font-size: x-large;
+}
+.n3{
+    padding: 21px 372px 21px 391px;
+    margin: 0px 150px;
+    background-color: #2d2d2d;
+    font-size: x-large;
+}
+.n4{
+    padding: 21px 331px 21px 391px;
+    margin: 10px 150px;
+    background-color: #2d2d2d;
+    font-size: x-large;
+}
+.n1:hover{
+background-color: rgb(62, 60, 60);
+}
+.n2:hover{
+    background-color: rgb(62, 60, 60);
+}
+.n3:hover{
+    background-color: rgb(62, 60, 60);
+ }
+.n4:hover{
+        background-color: rgb(62, 60, 60);
+}
+@media (max-width: 500px) {
+    body{
+        background-color: black;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%) ,url(https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 120%;
+    }
+    
+    h1,h2{
+        color: white;
+        text-align: center;
+        margin: 46px;
+    }
+    .tv{
+        color: white;
+        margin: 291px 658px 265px 135px;
+    }
+    .tvtv{
+        position: absolute;
+        right: 13%;
+        top: 122%;
+        width: 30%;
+    }
+    .download{
+        position: absolute;
+        right: 13%;
+        top: 190%;
+        width: 30%;
+    }
+    .Stream{
+        position: absolute;
+        right: 13%;
+        width: 30%;
+        top: 270%;
+    }
+    .kids{
+        position: absolute;
+        right: 13%;
+        top: 335%;
+        width: 30%;
+    }
+    .netflix{
+        font-size: xxx-large;
+        color: red;
+        position: absolute;
+        left: 150px;
+        font-family: fantasy;
+    }
+    .signbutton{
+       text-align: right;
+    }
+    button{
+        font-size: large;
+        background-color: red;
+        color: white;
+        border-radius: 3px;
+        text-shadow: none;
+        box-shadow: none;
+        border: none;
+        cursor: pointer;
+        margin: 0px 57px;
+    }
+    .signin:hover{
+        background-color: tomato;
+    }
+    
+    .unlimited{
+    text-align: center;
+    font-size: x-large;
+    margin: 250px 0px 0px 0px;
+    color: white;
+    }
+    .email{
+        text-align:center;
+        color: white;
+    
+    }
+    .mail{
+        height: 43px;
+        width: 358px;
+        text-align: center;
+     filter: opacity(54%);
+     border: 3px solid white;
+     color: white;
+     background-color: black;
+     font-size: large;
+    }
+    .get:hover{
+        background-color: tomato;
+    }
+    .get{
+        padding: 12px 47px;
+        margin: 0px 8px;
+    }
+    .offline{
+        margin: 291px 658px 265px 135px;
+    }
+    .watch{
+        margin: 291px 658px 265px 135px;
+    }
+    .create{
+        margin: 291px 658px 265px 135px;
+    }
+    .n1{
+        padding: 21px 378px 21px 478px;
+        margin: 20px 150px;
+        background-color: #2d2d2d;
+        font-size: x-large;
+    }
+    .n1{
+        padding: 21px 371px 21px 439px;
+        margin: 0px 147px;
+        background-color: #2d2d2d;
+        font-size: x-large;
+    }
+    .n2{
+        padding: 21px 313px 21px 353px;
+        margin: 10px 149px;
+        background-color: #2d2d2d;
+        font-size: x-large;
+    }
+    .n3{
+        padding: 21px 372px 21px 391px;
+        margin: 0px 150px;
+        background-color: #2d2d2d;
+        font-size: x-large;
+    }
+    .n4{
+        padding: 21px 331px 21px 391px;
+        margin: 10px 150px;
+        background-color: #2d2d2d;
+        font-size: x-large;
+    }
+    .n1:hover{
+    background-color: rgb(62, 60, 60);
+    }
+    .n2:hover{
+        background-color: rgb(62, 60, 60);
+    }
+    .n3:hover{
+        background-color: rgb(62, 60, 60);
+     }
+    .n4:hover{
+            background-color: rgb(62, 60, 60);
+    }
+}
