@@ -37,7 +37,7 @@ h2 {
 }
 .tv {
   color: white;
-  margin-top: 300px;
+  margin-top: 358px;
   /* border: 2px solid white; */
   display: flex;
   justify-content: space-around;
@@ -70,7 +70,7 @@ h2 {
   color: red;
   /* position: absolute; */
   font-family: fantasy;
-  margin: 0;
+  margin: 0px 0px 0px 181px;
 }
 .signbutton {
   text-align: right;
@@ -80,6 +80,13 @@ button {
   background-color: red;
   color: white;
   border-radius: 3px;
+}
+.english:hover,
+button:hover,
+.get:hover,
+.footer ul:hover,
+.faq-item:hover {
+  cursor: pointer;
 }
 .english {
   font-size: large;
@@ -195,9 +202,28 @@ button {
 .faq-section .faq-item:hover {
   background-color: rgb(62, 60, 60);
 }
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 53px;
+  font-size: larger;
+  color: #ffffffb3;
+}
+.footer ul {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.footer ul li {
+  margin-bottom: 16px;
+}
 @media (max-width: 600px) {
+  .footer {
+    font-size: medium;
+  }
   .netflix {
     font-size: x-large;
+    margin: 0px;
   }
   .english {
     font-size: small;
