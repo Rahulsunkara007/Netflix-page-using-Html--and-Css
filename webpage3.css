@@ -217,7 +217,7 @@ button:hover,
 .footer ul li {
   margin-bottom: 16px;
 }
-@media (max-width: 600px) {
+@media (max-width: 662px) {
   .footer {
     font-size: medium;
   }
@@ -230,6 +230,9 @@ button:hover,
   }
   button {
     font-size: small;
+  }
+  .tv {
+    margin-top: 25px;
   }
   .tv-text p {
     font-size: 18px;
